@@ -1,3 +1,8 @@
 # leetcode_practice
 
-目前包含链表，滑动窗口类代码。相关题目分别在子项list, sliding_window的README.mdh有对应说明。
+链表 (list)  
+&emsp;&emsp;-- 合并有序链表  
+&emsp;&emsp;-- 链表逆序  
+滑动窗口 (sliding_window)    
+&emsp;&emsp;-- 和为s的最短连续子序列  
+&emsp;&emsp;-- 元素相同的最长连续子序列  
