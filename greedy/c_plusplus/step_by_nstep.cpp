@@ -23,7 +23,7 @@ int Solution::numOfSteps(int array[], int len)
     while(i < len)
     {
        steps++;
-       mSeqList.push_back(array[i]);
+       mSeqList.push_back(i);
        if(i+1+array[i] >= len)
            break; 
        maxIndex = maxSteps(array, array[i], i+1); 
@@ -58,10 +58,9 @@ int main(void)
     vector<int>::const_iterator it = vec.begin();
     for(; it != vec.end(); ++it) 
     {
+	cout << array[*it] << "[" << *it << "]";
         if((it + 1) != vec.end())
-	    cout << *it << "->";
-        else
-            cout << *it;
+	    cout << "->";
     }
     cout << endl;
     return 0;
